@@ -25,7 +25,7 @@ export default class ModernCalendarWebPart extends BaseClientSideWebPart<IModern
               <p class="${ styles.subTitle }">Customize SharePoint experiences using Web Parts modern calendar.</p>
               <p class="${ styles.description }">${escape(this.properties.description)}</p>
               <a href="https://github.com/JayaprakashTatagari/FirstWebpart" class="${ styles.button }">
-                <span class="${ styles.label }">Jayprakahs-GitHub-Repo</span>
+                <span class="${ styles.label }">Jayprakahs-GitHub-Repository</span>
               </a>
             </div>
           </div>
