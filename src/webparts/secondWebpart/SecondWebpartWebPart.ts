@@ -22,7 +22,7 @@ export default class SecondWebpartWebPart extends BaseClientSideWebPart<ISecondW
           <div class="${ styles.row }">
             <div class="${ styles.column }">
               <span class="${ styles.title }">Second SPFX Webpart!</span>
-              <p class="${ styles.subTitle }">Customize SharePoint experiences using Web Parts.</p>
+              <p class="${ styles.subTitle }">Customize SharePoint experiences using Web Parts with CI/CD.</p>
               <p class="${ styles.description }">${escape(this.properties.description)}</p>
               <a href="https://aka.ms/spfx" class="${ styles.button }">
                 <span class="${ styles.label }">Learn more</span>
