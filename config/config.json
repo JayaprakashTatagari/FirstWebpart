@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "first-webapart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/firstWebapart/FirstWebapartWebPart.js",
+          "manifest": "./src/webparts/firstWebapart/FirstWebapartWebPart.manifest.json"
+        }
+      ]
+    },
+    "second-webpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/secondWebpart/SecondWebpartWebPart.js",
+          "manifest": "./src/webparts/secondWebpart/SecondWebpartWebPart.manifest.json"
+        }
+      ]
+    },
+    "modern-calendar-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/modernCalendar/ModernCalendarWebPart.js",
+          "manifest": "./src/webparts/modernCalendar/ModernCalendarWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FirstWebapartWebPartStrings": "lib/webparts/firstWebapart/loc/{locale}.js",
+    "SecondWebpartWebPartStrings": "lib/webparts/secondWebpart/loc/{locale}.js",
+    "ModernCalendarWebPartStrings": "lib/webparts/modernCalendar/loc/{locale}.js"
+  }
+}
