@@ -900,8 +900,7 @@ function getManifests() {
         },
         "FirstWebapartWebPartStrings": {
           "defaultPath": "lib/webparts/firstWebapart/loc/en-us.js",
-          "type": "localizedPath",
-          "paths": {}
+          "type": "localizedPath"
         },
         "@microsoft/sp-core-library": {
           "type": "component",
@@ -958,8 +957,7 @@ function getManifests() {
         },
         "ModernCalendarWebPartStrings": {
           "defaultPath": "lib/webparts/modernCalendar/loc/en-us.js",
-          "type": "localizedPath",
-          "paths": {}
+          "type": "localizedPath"
         },
         "@microsoft/sp-core-library": {
           "type": "component",
@@ -1016,8 +1014,7 @@ function getManifests() {
         },
         "SecondWebpartWebPartStrings": {
           "defaultPath": "lib/webparts/secondWebpart/loc/en-us.js",
-          "type": "localizedPath",
-          "paths": {}
+          "type": "localizedPath"
         },
         "@microsoft/sp-core-library": {
           "type": "component",
