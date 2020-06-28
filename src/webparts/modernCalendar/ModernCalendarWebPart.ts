@@ -22,10 +22,10 @@ export default class ModernCalendarWebPart extends BaseClientSideWebPart<IModern
           <div class="${ styles.row }">
             <div class="${ styles.column }">
               <span class="${ styles.title }">New Modern calendar CI/CD in Azure !</span>
-              <p class="${ styles.subTitle }">Customize SharePoint experiences using Web Parts.</p>
+              <p class="${ styles.subTitle }">Customize SharePoint experiences using Web Parts modern calendar.</p>
               <p class="${ styles.description }">${escape(this.properties.description)}</p>
-              <a href="https://aka.ms/spfx" class="${ styles.button }">
-                <span class="${ styles.label }">Learn more</span>
+              <a href="https://github.com/JayaprakashTatagari/FirstWebpart" class="${ styles.button }">
+                <span class="${ styles.label }">Jayprakahs-GitHub-Repo</span>
               </a>
             </div>
           </div>
