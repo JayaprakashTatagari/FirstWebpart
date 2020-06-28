@@ -35,7 +35,8 @@
       },
       "ModernCalendarWebPartStrings": {
         "defaultPath": "lib/webparts/modernCalendar/loc/en-us.js",
-        "type": "localizedPath"
+        "type": "localizedPath",
+        "paths": {}
       },
       "@microsoft/sp-core-library": {
         "type": "component",
