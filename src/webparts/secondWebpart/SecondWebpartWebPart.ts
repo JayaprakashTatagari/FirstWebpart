@@ -21,7 +21,7 @@ export default class SecondWebpartWebPart extends BaseClientSideWebPart<ISecondW
         <div class="${ styles.container }">
           <div class="${ styles.row }">
             <div class="${ styles.column }">
-              <span class="${ styles.title }">Second SPFX Webpart in Life cycle CI/CD!</span>
+              <span class="${ styles.title }">Webpart in Life cycle CI/CD!</span>
               <p class="${ styles.subTitle }">SharePoint using Web Parts with CI/CD.</p>
               <p class="${ styles.description }">${escape(this.properties.description)}</p>
               <a href="https://github.com/JayaprakashTatagari/FirstWebpart" class="${ styles.button }">
