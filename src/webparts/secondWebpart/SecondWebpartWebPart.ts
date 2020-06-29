@@ -25,7 +25,7 @@ export default class SecondWebpartWebPart extends BaseClientSideWebPart<ISecondW
               <p class="${ styles.subTitle }">SharePoint using Web Parts with CI/CD.</p>
               <p class="${ styles.description }">${escape(this.properties.description)}</p>
               <a href="https://github.com/JayaprakashTatagari/FirstWebpart" class="${ styles.button }">
-                <span class="${ styles.label }">GitHub Repo</span>
+                <span class="${ styles.label }">GitHub-Repo</span>
               </a>
             </div>
           </div>
