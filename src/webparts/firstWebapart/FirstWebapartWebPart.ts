@@ -21,8 +21,8 @@ export default class FirstWebapartWebPart extends BaseClientSideWebPart<IFirstWe
         <div class="${ styles.container }">
           <div class="${ styles.row }">
             <div class="${ styles.column }">
-              <span class="${ styles.title }">First SPFx Webpart with azure devops Azure CI/CD!</span>
-              <p class="${ styles.subTitle }">Customize SharePoint experiences using azire.</p>
+              <span class="${ styles.title }">SPFx1</span>
+              <p class="${ styles.subTitle }">AZURE CI/CD.</p>
               <p class="${ styles.description }">${escape(this.properties.description)}</p>
               <a href="https://aka.ms/spfx" class="${ styles.button }">
                 <span class="${ styles.label }">Learn more</span>
