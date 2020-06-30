@@ -8,11 +8,11 @@
     "webApiPermissionRequests": [
       {
         "resource": "Microsoft Graph",
-        "scope": "Calendars.Read"
+        "scope": "user_impersonation"
       },
       {
-        "resource": "Microsoft Graph",
-        "scope": "User.ReadBasic.All"
+        "resource": "Windows Azure Active Directory",
+        "scope": "User.Read"
       }
     ]
   },
