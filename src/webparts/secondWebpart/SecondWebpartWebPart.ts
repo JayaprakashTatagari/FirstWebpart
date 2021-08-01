@@ -21,7 +21,7 @@ export default class SecondWebpartWebPart extends BaseClientSideWebPart<ISecondW
         <div class="${ styles.container }">
           <div class="${ styles.row }">
             <div class="${ styles.column }">
-              <span class="${ styles.title }">SPFx2</span>
+              <span class="${ styles.title }">SPFx2 Second Webpart</span>
               <p class="${ styles.subTitle }">Azure CI/CD.</p>
               <p class="${ styles.description }">${escape(this.properties.description)}</p>
               <a href="https://github.com/JayaprakashTatagari/FirstWebpart" class="${ styles.button }">
